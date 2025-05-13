@@ -149,7 +149,7 @@ body{
 }
 .image img{
      border-radius: 250px;
-     rotate: -20deg;
+     /* rotate: -20deg; */
      background-color: rgb(20, 7, 73);
      padding: 0.7rem;
      border: 5px solid rgb(170, 241, 241);
@@ -409,6 +409,63 @@ section{
     transform-origin: left;
 }
 
+@keyframes slide {
+    100% {
+       transform: scaleX(1);
+        
+    }
+}
+
+.Technical-bars .bar .progress-line .html {
+    height: 100%;
+    width: 90%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: slide 1s linear forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+.Technical-bars .bar .progress-line .css {
+    height: 100%;
+    width: 70%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: slide 1s linear forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+.Technical-bars .bar .progress-line .Javascript {
+    height: 100%;
+    width: 80%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: slide 1s linear forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+.Technical-bars .bar .progress-line .React {
+    height: 100%;
+    width: 60%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: slide 1s linear forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+.Technical-bars .bar .progress-line .Node-js {
+    height: 100%;
+    width: 40%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: slide 1s linear forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
 @keyframes slide {
     100% {
        transform: scaleX(1);
